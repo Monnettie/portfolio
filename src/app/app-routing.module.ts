@@ -6,6 +6,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
+{ path: '', component: MainComponent},
 { path: 'main', component: MainComponent},
 { path: "about", component:AboutComponent},
 { path: "portfolio", component:PortfolioComponent},

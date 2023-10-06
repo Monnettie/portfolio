@@ -5,10 +5,15 @@
 
 
     <nav>
-            <button routerLink = "main">home</button> <br>
-            <button routerLink = "portfolio">portfolio</button> <br>
-            <button routerLink = "about">about</button> <br>
-            <button routerLink = "contact">contact</button>
+            <button routerLink = "main" (click)="notPortfolioOnClick()">home</button> <br>
+            <button routerLink = "portfolio" (click)="toggleDivVisibilityOnClick()">portfolio</button> <br>
+            <div class="hehe" [style.display]="divVisible ? 'block' : 'none'">
+                <button routerLink = "portfolio" class="sub">featured</button> <br>
+                <button routerLink = "portfolio" class="sub" >3d</button> <br>
+                <button routerLink = "portfolio" class="sub">illustration</button> <br>
+            </div>
+            <button routerLink = "about" (click)="notPortfolioOnClick()">about</button> <br>
+            <button routerLink = "contact" (click)="notPortfolioOnClick()">contact</button>
     </nav>
 
     

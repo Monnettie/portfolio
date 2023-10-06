@@ -13,7 +13,7 @@ button{
  border-top: 0;
  border-right: 0;
  font-size:1em;
- margin: 7.5%;
+ margin: 9%;
  padding-left: 15%;
  padding-right: 15%;
  text-align: center;
@@ -29,9 +29,28 @@ h1{
 }
 
 nav{
-    padding-bottom:40%
+    padding-bottom:30%;
 }
 
 footer{
     text-align: center;
+    font-size: 60%;
+}
+
+.hehe{
+    margin-left: 40%;
+    border: solid;
+    border-right: 0;
+    border-top: 0;
+    width: 40%;
+    padding-left: 0%;
+    display: none
+}
+.sub{
+    border: none;
+    padding-left: 0%;
+}
+button:hover{
+    font-weight: bold;
+    cursor: pointer; 
 }

@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent {
+  divVisible: boolean = false;
+   toggleDivVisibilityOnClick(): void {
+    this.divVisible = !this.divVisible;
 
+  }
+  notPortfolioOnClick(): void{
+    this.divVisible = false;
+  }
 }
