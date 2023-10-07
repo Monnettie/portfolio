@@ -6,6 +6,7 @@
  border-right: .2em black solid;
  border-radius:2%;
  text-align: center;
+ position: sticky;
 }
 
 button{
