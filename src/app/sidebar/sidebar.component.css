@@ -3,16 +3,19 @@
  width: 60%;
  margin:0px;
  font-size: 1.5em;
- border-right: .2em black solid;
+ border-right: .2em solid #FF74B1;
  border-radius:2%;
  text-align: center;
  position: sticky;
+ background-color: #FFA1CF;
 }
 
 button{
- background-color: white;
+ color: aliceblue;
+ background-color: #FFA1CF;
  border-top: 0;
  border-right: 0;
+ border-radius: 20px;
  font-size:1em;
  margin: 9%;
  padding-left: 15%;
@@ -20,6 +23,7 @@ button{
  text-align: center;
  padding-bottom: 1.5%;
  width: 70%;
+ border-color: #FF74B1;
 }
 
 h1{
@@ -27,6 +31,7 @@ h1{
     text-align:left;
     padding-left: 20%;
     margin-bottom: 25%;
+    line-height: 1.2;
 }
 
 nav{
@@ -34,8 +39,10 @@ nav{
 }
 
 footer{
+    margin-top: 5.5em;
     text-align: center;
     font-size: 60%;
+    padding-bottom: .3em;
 }
 
 .hehe{
@@ -53,5 +60,7 @@ footer{
 }
 button:hover{
     font-weight: bold;
-    cursor: pointer; 
+    cursor: pointer;
+    background-color: #FF74B1;
+    border-color: #A7FFE4; 
 }

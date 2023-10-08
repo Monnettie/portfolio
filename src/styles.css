@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(assets/fonts/RobotoSlab-Regular.ttf) format("truetype");
+  }
+
+@font-face {
+    font-family: Pacifico;
+    src: url(assets/fonts/Pacifico-Regular.ttf) format("truetype");
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'RobotoSlab', 'arial', sans-serif;
+}
+
+body{
+    background-color: #FFD6EC;
+    color: #F9F5F6;
+}
+
+h1{
+    font-family: "Pacifico";
+}
