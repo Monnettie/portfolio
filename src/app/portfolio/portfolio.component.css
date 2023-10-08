@@ -1,23 +1,25 @@
 
 .portfolio{
+    background-color: aqua;
+    width: auto;
     margin-top: 4.5em;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    justify-items: center;
 }
 
 .featured{
-    width: 80%;
+   /* width: 80%; */
 }
 
-.featured iframe, a, img{
-    max-width: 220px;
-    padding: 1em;
+img{
+    max-height: 250px;
+    max-width: 400px;
+    padding: 1em; 
 }
 
-.featured img{
-   justify-self: center;
+iframe, a{
+    max-height: 200px;
+    max-width: 200px;
 }
 
 h2{
