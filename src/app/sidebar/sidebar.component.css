@@ -1,12 +1,12 @@
 .sidebar{
  height: 100%;
- width: 60%;
+ width: 20%;
  margin:0px;
  font-size: 1.5em;
  border-right: .2em solid #FF74B1;
  border-radius:2%;
  text-align: center;
- position: sticky;
+ position: fixed;
  background-color: #FFA1CF;
 }
 
@@ -30,7 +30,8 @@ h1{
     padding: 5%;
     text-align:left;
     padding-left: 20%;
-    margin-bottom: 25%;
+    margin-top: 1em;
+    margin-bottom: 20%;
     line-height: 1.2;
 }
 
@@ -39,7 +40,7 @@ nav{
 }
 
 footer{
-    margin-top: 5.5em;
+    margin-top: .5em;
     text-align: center;
     font-size: 60%;
     padding-bottom: .3em;

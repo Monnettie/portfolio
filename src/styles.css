@@ -25,3 +25,16 @@ body{
 h1{
     font-family: "Pacifico";
 }
+
+h2
+{
+  text-shadow: -1px 1px 2px #FFA1CF,
+  1px 1px 2px #FFA1CF,
+  1px -1px 0 #FFA1CF,
+  -1px -1px 0 #FFA1CF;
+}
+
+.page{
+  width: 60%;
+  margin-left: 30%;
+}
