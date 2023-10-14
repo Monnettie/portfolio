@@ -28,10 +28,10 @@ h1{
 
 h2
 {
-  text-shadow: -1px 1px 2px #FFA1CF,
-  1px 1px 2px #FFA1CF,
-  1px -1px 0 #FFA1CF,
-  -1px -1px 0 #FFA1CF;
+  text-shadow: -1px 1px 2px #FF74B1,
+  1px 1px 2px #FF74B1,
+  1px -1px 0 #FF74B1,
+  -1px -1px 0 #FF74B1;
 
   border-style: solid;
   border-width: 0 0 2px 0;
