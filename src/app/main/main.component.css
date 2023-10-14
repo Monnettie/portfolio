@@ -1,4 +1,7 @@
 
+.page{
+    background-image: url("assets/images/cover.png");
+}
 
 .about{
     margin: 0;
