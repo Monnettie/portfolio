@@ -8,6 +8,7 @@ import { MainComponent } from './main/main.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { DokonekoComponent } from './dokoneko/dokoneko.component';
+import { AnotherdayComponent } from './anotherday/anotherday.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DokonekoComponent } from './dokoneko/dokoneko.component';
     MainComponent,
     AboutComponent,
     PortfolioComponent,
-    DokonekoComponent
+    DokonekoComponent,
+    AnotherdayComponent
   ],
   imports: [
     BrowserModule,
