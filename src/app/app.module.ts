@@ -7,7 +7,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { MainComponent } from './main/main.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ContactComponent } from './contact/contact.component';
+import { DokonekoComponent } from './dokoneko/dokoneko.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { ContactComponent } from './contact/contact.component';
     MainComponent,
     AboutComponent,
     PortfolioComponent,
-    ContactComponent
+    DokonekoComponent
   ],
   imports: [
     BrowserModule,

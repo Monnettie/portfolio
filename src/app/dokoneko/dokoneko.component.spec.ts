@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContactComponent } from './contact.component';
+import { DokonekoComponent } from './dokoneko.component';
 
-describe('ContactComponent', () => {
-  let component: ContactComponent;
-  let fixture: ComponentFixture<ContactComponent>;
+describe('DokonekoComponent', () => {
+  let component: DokonekoComponent;
+  let fixture: ComponentFixture<DokonekoComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ContactComponent]
+      declarations: [DokonekoComponent]
     });
-    fixture = TestBed.createComponent(ContactComponent);
+    fixture = TestBed.createComponent(DokonekoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
